@@ -1,0 +1,26 @@
+{
+  "fields": [
+    {
+      "name": "product_id",
+      "type": "Integer",
+      "required": true
+    },
+    {
+      "name": "name",
+      "type": "String",
+      "required": true,
+      "maxLength": 50
+    },
+    {
+      "name": "price",
+      "type": "Double",
+      "required": true
+    },
+    {
+      "name": "quantity",
+      "type": "Integer",
+      "required": true,
+      "minValue": 0
+    }
+  ]
+}
