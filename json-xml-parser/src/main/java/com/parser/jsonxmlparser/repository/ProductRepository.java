@@ -1,6 +1,5 @@
 package com.parser.jsonxmlparser.repository;
 
-import com.parser.jsonxmlparser.model.Product;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 
